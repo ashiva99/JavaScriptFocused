@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    color:linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+.rainbow-text {
+    color: black; 
+}
+
+.rainbow-text.rainbow-active  {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#blockContainer {
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 5px solid red; /* initially add red border */
+    padding: 40px; 
+}
+
+.block {
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    border: 1px solid white;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
