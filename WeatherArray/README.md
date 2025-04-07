@@ -3,6 +3,7 @@
 This is a simple web application that displays the weekly weather forecast. The weather for each day is randomly generated and displayed with styled backgrounds and text.
 
 ## Project Structure
+```
 WeatherArray/
 ├── index.html        # Main HTML file
 ├── css/
@@ -17,7 +18,7 @@ WeatherArray/
 │   └── sunnyimg.jpg  # Sunny weather image
 └── js/
     └── script.js     # JavaScript file for dynamic content
-
+```
 
 
 ## Features
