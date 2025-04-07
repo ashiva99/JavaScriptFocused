@@ -37,9 +37,6 @@ WeatherArray/
 1. Clone or download the repository.
 2. Open the `index.html` file in your browser to view the app.
 
-## Screenshots
-
-![Weekly Weather App](screenshot.png)
 
 ## File Paths for Assets
 
