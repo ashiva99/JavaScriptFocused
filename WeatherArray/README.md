@@ -3,19 +3,20 @@
 This is a simple web application that displays the weekly weather forecast. The weather for each day is randomly generated and displayed with styled backgrounds and text.
 
 ## Project Structure
-WeatherArray/ 
-├── index.html # Main HTML file 
-├── css/ 
-│ └── style.css # Stylesheet for the app 
-├── gifs/ 
-│ ├── cloudy.gif # Cloudy weather background GIF 
-│ ├── rainy.gif # Rainy weather background GIF 
-│ └── sunny.gif # Sunny weather background GIF ├── images/ 
-│ ├── cloudyimg.png # Cloudy weather image 
-│ ├── rainyimg.jpg # Rainy weather image 
-│ └── sunnyimg.jpg # Sunny weather image 
-└── js/ 
-  └── script.js # JavaScript file for dynamic content
+WeatherArray/
+├── index.html        # Main HTML file
+├── css/
+│   └── style.css     # Stylesheet for the app
+├── gifs/
+│   ├── cloudy.gif    # Cloudy weather background GIF
+│   ├── rainy.gif     # Rainy weather background GIF
+│   └── sunny.gif     # Sunny weather background GIF
+├── images/
+│   ├── cloudyimg.png # Cloudy weather image
+│   ├── rainyimg.jpg  # Rainy weather image
+│   └── sunnyimg.jpg  # Sunny weather image
+└── js/
+    └── script.js     # JavaScript file for dynamic content
 
 
 
