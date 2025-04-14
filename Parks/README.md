@@ -10,6 +10,7 @@ images/ skate.jpg vr.jpg waterpark.jpg
 js/ script.js 
 pages/ add.html more.html
 
+```
 Parks/
 ├── index.html        # Main HTML file
 ├── css/
@@ -22,6 +23,8 @@ Parks/
 │   └── waterpark.jpg  
 └── js/
     └── script.js     # JavaScript file for dynamic content
+```
+
 
 ### File Descriptions
 
@@ -52,17 +55,6 @@ Parks/
 - **HTML**: Structure of the web pages.
 - **CSS**: Styling for the pages.
 - **JavaScript**: Logic for dynamic interactions.
-
-## Images
-
-### Water Park
-![Water Park](images/waterpark.jpg)
-
-### Skate
-![Skate](images/skate.jpg)
-
-### VR
-![VR experience](images/vr.jpg)
 
 ## Screenshots
 ![Screenshot](screenshots/img1.png)
