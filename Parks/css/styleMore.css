@@ -1,0 +1,31 @@
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 2rem;
+  }
+  h1 {
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    background: #222;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+  }
+
+  button{
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+

@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.6s ease-in-out;
+    color: white;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  .container {
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    padding: 40px;
+    margin: 60px auto;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+  }
+  
+  button {
+    margin: 10px;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s ease, background 0.3s;
+  }
+  
+  #waterPark {
+    background-color: #4f8bff;
+    color: white;
+  }
+  
+  #skatingPark {
+    background-color: #e3c544;
+    color: black;
+  }
+  
+  #arcadePark {
+    background-color: #c0392b;
+    color: white;
+  }
+  
+  #morePlaces {
+    background-color: #b96d0b;
+    color: white;
+  }
+
+  #addPlace {
+    background-color: #76b12a;
+    color: white;
+  }
+
+
+
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  #info {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 20px;
+    margin-top: 30px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    line-height: 1.6;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    white-space: pre-line;
+    text-align: left;
+  }
+
+
+  #info.active {
+    display: block;
+  }
+  

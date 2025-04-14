@@ -18,11 +18,11 @@ container.after(todayMessage); // Append the message after the container
 
 
 if (todayWeather === "Sunny") {
-    body.style.backgroundImage = "url('../gifs/sunny.gif')";
+    body.style.backgroundImage = "url('gifs/sunny.gif')";
 } else if (todayWeather === "Rainy") {
-    body.style.backgroundImage = "url('../gifs/rainy.gif')";
+    body.style.backgroundImage = "url('gifs/rainy.gif')";
 } else if (todayWeather === "Cloudy") {
-    body.style.backgroundImage = "url('../gifs/cloudy.gif')";
+    body.style.backgroundImage = "url('gifs/cloudy.gif')";
 }
 
 
@@ -39,11 +39,11 @@ daysOfWeek.forEach((day, index) => {
 
 
     if (weather === "Sunny") {
-        daySpan.style.backgroundImage = "url('../images/sunnyimg.jpg')";
+        daySpan.style.backgroundImage = "url('images/sunnyimg.jpg')";
     } else if (weather === "Rainy") {
-        daySpan.style.backgroundImage = "url('../images/rainyimg.jpg')";
+        daySpan.style.backgroundImage = "url('images/rainyimg.jpg')";
     } else if (weather === "Cloudy") {
-        daySpan.style.backgroundImage = "url('../images/cloudyimg.png')";
+        daySpan.style.backgroundImage = "url('images/cloudyimg.png')";
     }
 
 
