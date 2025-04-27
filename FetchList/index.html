@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fetch List</title>
+  <link rel="stylesheet" href="css/styles.css"> 
+  <script src="js/script.js" defer></script>
+</head>
+<body style="background-image: url('images/pokemon.jpg');">
+  <div id="container">
+    <h1>Fetch List</h1>
+    <h2>Pokémon Explorer</h2>
+    
+    <div class="input-wrapper">
+      <input type="number" id="poke-count" min="1" max="100" placeholder="Enter number of Pokémon" />
+      <button onclick="fetchPokemon()">Load</button>
+    </div>
+
+    <img id="loader" src="gif/6vw5.gif" alt="Loading..." />
+
+    <table id="pokemon-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Image</th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+        <!-- The list of Pokemon will be populated here. Adding this for my reference as a body -->
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

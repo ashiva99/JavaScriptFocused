@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('/images/pokemon.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    padding: 20px;
+  }
+
+  h1 {
+    color: #ffcb05;
+    margin-bottom: 20px;
+  }
+
+  .input-wrapper {
+    margin-bottom: 20px;
+  }
+
+  input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2a75bb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #1c4b82;
+  }
+
+  #loader {
+    width: 150px;
+    margin: 20px auto;
+    display: none;
+  }
+
+  #pokemon-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  #pokemon-table th, #pokemon-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+
+  #pokemon-table th {
+    background-color: #ffcb05;
+    color: #2a75bb;
+  }
+
+  #pokemon-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .poke-img {
+    width: 80px;
+    height: 80px;
+  }
