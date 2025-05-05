@@ -1,0 +1,22 @@
+body {
+    background-attachment: fixed;
+    background-image: url('../images/1385.jpg');
+    background-size: cover;
+}
+
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    padding: 25px;
+  }
+
+
+  .featured-image {
+    width: 200px; /* Set desired width */
+    height: 250px; /* Set desired height */
+    /* object-fit: cover; Ensures the image scales properly */
+}
+

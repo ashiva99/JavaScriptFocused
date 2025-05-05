@@ -1,0 +1,33 @@
+#video-container {
+    justify-content: center;
+}
+
+/* Optional enhancements */
+.detail-bg {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.detail-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.detail-paragraph {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Remove this media override */
+@media (max-width: 768px) {
+    .col-md-4 {
+        width: 100% !important;  /* not needed if Bootstrap classes used correctly */
+    }
+}
+

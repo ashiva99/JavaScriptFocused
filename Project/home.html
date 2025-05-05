@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+    <script src="js/navScript.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <!-- Brand name -->
+      <a class="navbar-brand" href="home.html">Shiv </a>
+  
+      <!-- Hamburger toggle button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!-- Collapsible menu -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="navigate('pages/todo.html')">ToDos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="navigate('pages/music.html')">Music</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="navigate('pages/videos.html')">Videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/about.html">About</a>
+          </li>
+        </ul>
+  
+        <!-- Right-aligned auth link -->
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <span id="authLink" class="nav-link"></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+      
+      
+        <!-- Logged Out Container -->
+    <div id="container-loggedOut" class="container mt-5 text-center">
+        <h2>Welcome</h2>
+        <p>Please login to continue.</p>
+        <button class="btn btn-primary" onclick="homeLogin()">Login</button>
+    </div>
+
+    <!-- Logged In Container -->
+    <div id="container-loggedIn" class="container mt-5 d-none">
+        <div class="row">
+            <!-- Weather -->
+            <div id="weather-bg" class="col-md-4">
+                <h4>Today Weather</h4>
+                <p id="weatherReport">Loading...</p>
+            </div>
+
+            <!-- Links -->
+            <div class="col-md-4">
+                <h4>My Todos</h4>
+                <ul class="list-todo">
+                    
+                </ul>
+            </div>
+
+            <!-- Image -->
+            <div class="col-md-4">
+                <h4>Todo</h4>
+                <img src="images/todo.jpg" class="img-fluid rounded featured-image" alt="Featured" onclick="window.location.href='pages/todo.html';">
+            </div>
+            <div class="col-md-4">
+              <h4>Music</h4>
+              <img src="images/music.jpg" class="img-fluid rounded featured-image" alt="Featured" onclick="window.location.href='pages/music.html';">
+            </div>
+            <div class="col-md-4">
+              <h4>Video</h4>
+              <img src="images/video.jpg" class="img-fluid rounded featured-image" alt="Featured" onclick="window.location.href='pages/videos.html';">
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
